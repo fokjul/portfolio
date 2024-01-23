@@ -1,9 +1,13 @@
-
+import { styles } from "../styles";
+import { Hero, About, Services, Portfolio } from "../components";
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
+    <section >
+      <Hero />
+      <About />
+      <Services />
+      <Portfolio />
+    </section>
   )
 }
 

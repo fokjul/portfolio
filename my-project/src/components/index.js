@@ -1,9 +1,9 @@
-import AboutMe from "./AboutMe";
+import About from "./About";
 import Contacts from "./Contacts";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Portfolio from "./Portfolio";
-import Skills from "./Skills";
+import Services from "./Services";
 import Testimonials from "./Testimonials";
 
 import { Button_S } from "./Buttons";
@@ -11,12 +11,12 @@ import Navbar from "./Navbar";
 
 
 export {
-    AboutMe,
+    About,
     Contacts,
     Footer,
     Hero,
     Portfolio,
-    Skills,
+    Services,
     Testimonials,
 
     Button_S,
