@@ -96,6 +96,7 @@ export const portfolioCopy = {
             description: "UX Design",
             image: chronometer,
         },
+        
     ]
 }
 
