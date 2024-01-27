@@ -16,3 +16,12 @@ export const Button_Icon = () => {
     </button>
   )
 }
+
+export const Button_Arrow = ({event, icon}) => {
+  return (
+    <button type="button" onClick={event
+    }>
+          <img src={icon}/>
+    </button>
+  )
+}

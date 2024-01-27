@@ -1,11 +1,11 @@
 import { heroCopy } from "../constants"
 import { Button_S } from "./Buttons"
-import { styles } from "../styles";
+import { layout, styles } from "../styles";
 
 const Hero = () => {
   return (
-    <section className={` bg-lightRed w-full pt-[64px]`}>
-      <div className={`${styles.boxWidth} gap-[48px]`}>
+    <section className={`${styles.bg_red} ${layout.section}`}>
+      <div className={`${layout.boxWidth} gap-[48px]`}>
         <div className="flex flex-col gap-[48px] ">
           <div className="max-w-[457px] flex flex-col gap-4">
             <p className={`${styles.heading_M}`}>{heroCopy.subheader}</p>

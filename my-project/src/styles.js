@@ -1,5 +1,7 @@
 export const styles = {
-    boxWidth: "flex lg:mx-auto mx-[80px] max-w-[1200px]",
+    bg_red: "bg-lightRed",
+    bg_grey: "bg-lightGrey",
+    bg_black: "bg-dimBlack",
 
     heading_XXXL: "font-montserrat text-[4rem] leading-[6rem] w-full",
     heading_XXL: "font-montserrat text-[3rem] leading-[4.5rem] w-full",
@@ -29,14 +31,7 @@ export const styles = {
   };
   
   export const layout = {
-    section: `flex md:flex-row flex-col ${styles.paddingY}`,
-    sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
-  
-    sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
-    sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
-  
-    sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
-
-    serviceSection: 'flex flex-1 md:flex-row flex-col justify-between items-center w-full my-[64px] p-4 sm:gap-8 gap-6',
+    section: "w-full py-[64px]",
+    boxWidth: "flex xl:mx-auto mx-[124px] max-w-[1200px]",
   };
   

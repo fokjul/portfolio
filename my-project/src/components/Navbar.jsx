@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom';
 import { logo01, ellipse01, close, menu } from '../assets';
 import { Button_S } from './Buttons';
-import { styles } from '../styles';
+import { layout, styles } from '../styles';
 import { navLinks } from '../constants';
 import { useState } from 'react';
 
-const Navbar = () => {
+export const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
   return (
     <>
-        <nav className={` bg-lightRed w-full`}>
-        <div className={`flex justify-between items-center ${styles.boxWidth} my-8 relative z-[5]`} >
+      <nav className={`${styles.bg_red} w-full`}>
+        <div className={`flex justify-between items-center ${layout.boxWidth} my-8 relative z-[5]`} >
             <img src={logo01} className='h-[45px]'/>
             <div className='sm:flex gap-8 items-center hidden'>
               <div className='flex gap-8'>
@@ -51,10 +51,7 @@ const Navbar = () => {
           </div>
         </div>
         <img src={ellipse01} className='absolute -top-3 left-[40%]'/>
-       
-        </nav>
-        
-        
+      </nav>  
     </>
   )
 }

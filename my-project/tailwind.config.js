@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  content: [
+    "./index.html", 
+    "./src/**/*.{js,jsx}",
+  ],
+  
   mode: "jit",
   theme: {
     extend: {
@@ -8,8 +12,9 @@ module.exports = {
         red: "#FC3314",
         lightRed: "#FFD4D0",
         dimBlack: "#1F1F1F",
-        grey: "#8D8D8D",
-        lightGrey: "E1E1E1",
+        darkGrey: "#8D8D8D",
+        grey: "#E1E1E1",
+        lightGrey: "#F7F7F7",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
@@ -25,5 +30,9 @@ module.exports = {
     },
   },
   plugins: [],
+  purge: {
+    // other purge options
+    
+  },
 };
 

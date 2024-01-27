@@ -5,10 +5,10 @@ import Hero from "./Hero";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
+import Skills from "./Skills";
 
 import { Button_S } from "./Buttons";
 import Navbar from "./Navbar";
-
 
 export {
     About,
@@ -18,6 +18,7 @@ export {
     Portfolio,
     Services,
     Testimonials,
+    Skills,
 
     Button_S,
     Navbar,

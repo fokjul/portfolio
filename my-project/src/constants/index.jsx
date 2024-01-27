@@ -1,4 +1,5 @@
-import { bgImage, design, development, research, testing, banking, flixbus, lucasys, chronometer } from "../assets";
+import { bgImage, design, development, research, testing, banking, flixbus, lucasys, chronometer, testAuthor, email, location, dribble, instagram } from "../assets";
+
 export const navLinks = [
     {
         id: "home",
@@ -96,7 +97,105 @@ export const portfolioCopy = {
             description: "UX Design",
             image: chronometer,
         },
+        {
+            id: "project04",
+            title: "Cronometer",
+            description: "UX Design",
+            image: chronometer,
+        },
+        {
+            id: "project05",
+            title: "Cronometer",
+            description: "UX Design",
+            image: chronometer,
+        },
+        {
+            id: "project06",
+            title: "Cronometer",
+            description: "UX Design",
+            image: chronometer,
+        },
         
     ]
 }
 
+export const skillsCopy = {
+    header: "Core Skills",
+    content: "I excel in essential design skills, creating visually stunning and functional digital experiences. From UI design to UX research, my passion is to craft effective and memorable digital solutions.",
+    barchartWidth: "350",
+    skills: [
+        {
+            id: "skill01",
+            name: "skill01",
+            scale: "7",
+        },
+        {
+            id: "skill02",
+            name: "skill02",
+            scale: "7",
+        },
+        {
+            id: "skill03",
+            name: "skill03",
+            scale: "7",
+        },
+        {
+            id: "skill04",
+            name: "skill04",
+            scale: "7",
+        },
+        {
+            id: "skill05",
+            name: "skill05",
+            scale: "7",
+        },
+        {
+            id: "skill06",
+            name: "skill06",
+            scale: "6",
+        },
+    ],
+}
+
+export const testimonialCopy = {
+    header: "Testimonials",
+    item: [
+        {
+            id: "1",
+            content: "Sara Jones's designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!",
+            name: "John Smith",
+            role: "CEO of XYZ Company",
+            photo: testAuthor,
+
+        },
+        {
+            id: "2",
+            content: "Sara Jones's designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!",
+            name: "John Fok",
+            role: "CEO of XYZ Company",
+            photo: testAuthor,
+        },
+    ]
+}
+
+export const contactsCopy = {
+    header: "Get in Touch",
+    content: "Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.",
+    contacts: [
+        {
+            id: "email",
+            type: "contact@gmail.com",
+            icon: email,
+        },
+        {
+            id: "location",
+            type: "Vancouver, Canada",
+            icon: location,
+        }
+    ],
+    socials: [
+        instagram,
+        dribble,
+    ]
+
+}

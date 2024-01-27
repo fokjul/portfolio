@@ -1,5 +1,6 @@
 import { styles } from "../styles";
-import { Hero, About, Services, Portfolio } from "../components";
+import { Hero, About, Services, Portfolio, Skills, Testimonials, Contacts, Footer } from "../components";
+
 const Home = () => {
   return (
     <section >
@@ -7,6 +8,9 @@ const Home = () => {
       <About />
       <Services />
       <Portfolio />
+      <Testimonials />
+      <Skills />
+      <Contacts />
     </section>
   )
 }

@@ -7,3 +7,14 @@
 :root {
     color: #1F1F1F;
 }
+
+.gradientMd {
+    background: linear-gradient(
+    to top,
+    #F7F7F7 0%,
+    #F7F7F7 65%,
+    #FFD4D0 65%,
+    #FFD4D0 100%
+  );
+}
+
