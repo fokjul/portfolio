@@ -9,6 +9,8 @@ import Skills from "./Skills";
 
 import { Button_S } from "./Buttons";
 import Navbar from "./Navbar";
+import ProjectCard from "./ProjectCard";
+import SectionHeader from "./SectionHeader";
 
 export {
     About,
@@ -22,4 +24,6 @@ export {
 
     Button_S,
     Navbar,
+    ProjectCard,
+    SectionHeader,
 };

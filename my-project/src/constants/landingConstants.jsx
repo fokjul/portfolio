@@ -78,45 +78,7 @@ export const servicesCopy = {
 export const portfolioCopy = {
     header: "Featured Projects",
     content: "Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.",
-    items: [
-        {
-            id: "project01",
-            title: "Smart Assistant MVP Design",
-            description: "UX/UI Design",
-            image: lucasys,
-        },
-        {
-            id: "project02",
-            title: "Flixbus Flow Redesign",
-            description: "UX/UI Design / User Testing",
-            image: flixbus,
-        },
-        {
-            id: "project03",
-            title: "Cronometer",
-            description: "UX Design",
-            image: chronometer,
-        },
-        {
-            id: "project04",
-            title: "Cronometer",
-            description: "UX Design",
-            image: chronometer,
-        },
-        {
-            id: "project05",
-            title: "Cronometer",
-            description: "UX Design",
-            image: chronometer,
-        },
-        {
-            id: "project06",
-            title: "Cronometer",
-            description: "UX Design",
-            image: chronometer,
-        },
-        
-    ]
+    
 }
 
 export const skillsCopy = {
@@ -199,3 +161,4 @@ export const contactsCopy = {
     ]
 
 }
+
