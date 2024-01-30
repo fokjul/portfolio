@@ -1,7 +1,7 @@
 import { Button_Icon } from "./Buttons";
 import { styles } from "../styles";
 
-const ProjectCard = ({image, title, description}) => {
+const ProjectCard = ({image, title, description, link}) => {
   return (
     <div className={` max-w-[355px] bg-white `}>
         <img src={image} className="w-full h-[199px] mb-8"/>
@@ -14,7 +14,9 @@ const ProjectCard = ({image, title, description}) => {
                   {description}
               </p>
             </div>
-            <Button_Icon />
+            <Button_Icon 
+              link = {link}
+            />
         </div>
     </div>
 

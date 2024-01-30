@@ -1,5 +1,4 @@
-export * from './projectsConstants';
-import { bgImage, design, development, research, testing, banking, flixbus, lucasys, chronometer, testAuthor, email, location, dribble, instagram } from "../assets";
+import { flixbus, lucasys, chronometer, } from "../assets";
 
 export const uxCopy = {
     header: "UX Case Studies",
@@ -10,18 +9,21 @@ export const uxCopy = {
             title: "Lucasys MVP",
             description: "UX/UI Design",
             image: lucasys,
+            link: "/projects/uxProject01",
         },
         {
             id: "uxProject02",
             title: "Flixbus",
             description: "UX Design / User Testing",
             image: flixbus,
+            link: "/projects/uxProject02",
         },
         {
             id: "uxProject03",
             title: "Cronometer",
             description: "UX Design",
             image: chronometer,
+            link: "/projects/uxProject03",
         },
     ]
 }
@@ -35,12 +37,14 @@ export const uiCopy = {
             title: "Smart Assistant MVP Design",
             description: "UX/UI Design",
             image: lucasys,
+            link: "/projects/flixbus",
         },
         {
             id: "uxProject02",
             title: "Flixbus Flow Redesign",
             description: "UX/UI Design / User Testing",
             image: flixbus,
+            link: "/projects/flixbus",
         },
     ]
 }
@@ -54,12 +58,14 @@ export const devCopy = {
             title: "Smart Assistant MVP Design",
             description: "UX/UI Design",
             image: lucasys,
+            link: "/projects/flixbus",
         },
         {
             id: "uxProject02",
             title: "Flixbus Flow Redesign",
             description: "UX/UI Design / User Testing",
             image: flixbus,
+            link: "/projects/flixbus",
         },
     ]
 }

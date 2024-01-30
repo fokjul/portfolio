@@ -1,5 +1,6 @@
 import { styles } from "../styles";
 import { send } from "../assets";
+import { Link } from "react-router-dom";
 
 export const Button_S = ({label, visuals}) => {
   return (
@@ -9,11 +10,11 @@ export const Button_S = ({label, visuals}) => {
   )
 }
 
-export const Button_Icon = () => {
+export const Button_Icon = ({link}) => {
   return (
-    <button type="button" className="w-[38px] h-[38px]">
+    <Link to={link} className="w-[38px] h-[38px]">
       <img src={send} />
-    </button>
+    </Link>
   )
 }
 
